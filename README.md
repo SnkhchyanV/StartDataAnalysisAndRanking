@@ -3,29 +3,17 @@ This guide explains how to set up the project environment, install dependencies,
 1. Create a Virtual Environment
 To isolate dependencies, create a virtual environment by following these steps:
 	1.	Open a terminal in the project directory.
-	2.	Run the following command to create a virtual environment:
-`python -m venv venv`
+	2.	Run the following command to create a virtual environment: `python -m venv venv`
 	3.	Activate the virtual environment:
-	•	On Windows:
-
-`venv\Scripts\activate`
-
-
-	•	On macOS and Linux:
-
-`source venv/bin/activate`
-
+	-	On Windows: `venv\Scripts\activate`
+	-	On macOS and Linux: `source venv/bin/activate`
 2. Install Required Dependencies
 
-With the virtual environment activated, install the necessary packages:
-
-`pip install -r requirements.txt`
+With the virtual environment activated, install the necessary packages: `pip install -r requirements.txt`
 
 3. Running the Script
 
-To execute the script, use the following syntax in the terminal:
-
-`python main.py --data_path <your_data_path> --<parameter_name> <weight>`
+To execute the script, use the following syntax in the terminal: `python main.py --data_path <your_data_path> --<parameter_name> <weight>`
 
 Example Usage
 
